@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background: url(https://images6.alphacoders.com/911/thumb-1920-911401.jpg) center/cover no-repeat fixed;
+}
+
+body {
+    position: sticky;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
+
+.nav {
+    background-color: red;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+  
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content{
+    background-color: white;
+    display: flex;
+    width: 80rem;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.content img{
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.content div{
+    display: flex;
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.content h2{
+    margin: 1%;
+}
+
+.content td{
+    font-size: larger;
+    padding: 10px;
+}
+
+.content td img{
+    width: 8rem;
+    
+    
+}
+
+.content table{
+    margin: auto;
+    font-size: large;
+    width: 80%;
+    text-align: center;
+}
+
+.content th, td{
+    border: 2px solid black;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.content video{
+    margin: auto;
+    object-fit: contain;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
